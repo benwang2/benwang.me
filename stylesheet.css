@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+
+html {
+    margin: 0; padding: 0;
+    background-color: rgb(25,24,26);
+    font-family: 'Quicksand', sans-serif;
+    height: 95%;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, p, .ref {
+    margin: 10px;
+}
+
+h1, h2, h3, .ref {color: aliceblue;}
+
+h1{font-size: 4em; font-weight: 400}
+p{font-size: 1.3em; color: rgb(200,200,200)}
+.ref {font-size: 1em; font-weight: 300; margin:0}
+
+.wrapper {
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 10vh;
+    max-width: 960px;
+    width: 100%;
+}
+
+nav .ref {
+    margin: 15px;
+    cursor: pointer;
+    height: min-content;
+}
+
+span {transition: color 0.3s ease}
+h1 span:hover{color:#54af71}
+
+a {text-decoration: none;color:aliceblue}
+a:hover, a:focus, a:active{color:aliceblue}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    flex-shrink: 0;
+    height: max-content;
+    width: 100%;
+    max-width: 960px;
+    margin-bottom: 50px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-shrink: 0;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    width: 100%;
+    height: max-content;
+}
+
+.cell {
+    height: 250px;
+    width: 250px;
+    border-radius: 12px;
+    margin: 10px;
+    cursor: pointer;
+    background-size: cover;
+    border-style: solid;
+    transition: all 0.5 ease-in-out;
+    overflow: hidden;
+    outline: none;
+}
+
+.cell > .cover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 6px;
+    transition: transform .5s ease-in-out;
+    transform: translateY(-100%);
+    overflow: hidden;
+}
+
+.cell:hover > .cover{
+    transform: translateY(0%);
+}
+
+.cover > h1, p{margin:12px;}
+.cover > h1 {font-size: 2em;text-decoration: underline;}
