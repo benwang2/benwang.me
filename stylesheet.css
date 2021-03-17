@@ -13,21 +13,37 @@ h1, h2, h3, p, .ref {
     margin: 10px;
 }
 
-h1, h2, h3, .ref {color: aliceblue;}
+h1, h2, h3, .ref, .work-title {color: antiquewhite;}
 
 h1{font-size: 4em; font-weight: 400}
 p{font-size: 1.3em; color: rgb(200,200,200)}
-.ref {font-size: 1em; font-weight: 300; margin:0}
+
+.ref {
+    position: relative;
+    z-index: inherit;
+    font-size: 1em; 
+    font-weight: 300;
+    margin:0; padding: 6px;
+    border-radius: 4px;
+    background-color: rgba(25,24,26, .9);
+    transition: background-color .3s ease;
+}
+
+.ref:hover {
+    background-color: rgba(46, 46, 44, 0.9)
+}
 
 .wrapper {
     background: none;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 nav {
+    position: fixed;
+    z-index: 10;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -72,6 +88,7 @@ a:hover, a:focus, a:active{color:aliceblue}
     display: flex;
     flex-flow: row wrap;
     justify-content: left;
+    align-items: center;
     width: 100%;
     height: max-content;
 }
@@ -90,6 +107,8 @@ a:hover, a:focus, a:active{color:aliceblue}
 }
 
 .cell > .cover {
+    position: relative;
+    z-index: 2;
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.8);
