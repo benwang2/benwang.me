@@ -53,10 +53,13 @@ nav {
 }
 
 nav .ref {
-    margin: 15px;
+    margin: 8px;
     cursor: pointer;
     height: min-content;
+    text-decoration: none;
 }
+
+.ref:hover, .ref:focus, .ref:active{color:aliceblue}
 
 span {transition: color 0.3s ease}
 h1 span:hover{color:#54af71}
@@ -124,3 +127,24 @@ a:hover, a:focus, a:active{color:aliceblue}
 
 .cover > h1, p{margin:12px;}
 .cover > h1 {font-size: 2em;text-decoration: underline;}
+
+#compressed {
+    justify-content: center;
+}
+
+.dropdown {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    background-color: rgba(0,0,0,0.9);
+    width: 100vw;
+    height: 110vh;
+    transform: translateY(-110%);
+    transition: transform 0.3s cubic-bezier(.19,0,.77,1);
+}
+
+.visible {
+    transform: translateY(-10px)
+}

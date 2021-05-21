@@ -1,47 +1,73 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Ben Wang</title>
         <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="resources/css/hamburgers.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="script.js"></script>
     </head>
     <body>
         <div class="wrapper">
-            <nav>
+            <nav id="full">
                 <h3><a class="ref" value="about" href="#about">about</a></h3>
+                <h3><a class="ref" value="skills" href="#skills">skills</a></h3>
                 <h3><a class="ref" value="experiences" href="#experiences">experiences</a></h3>
                 <h3><a class="ref" value="projects" href="#projects">projects</a></h3>
+            </nav>
+            <nav id="compressed" style="display:none;">
+                <button id="hamburger" class="hamburger hamburger--squeeze" type="button">
+                    <span class="hamburger-box">
+                      <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+                <div class="dropdown">
+                    <div style="padding-top:84px"></div>
+                    <h3><a class="ref" value="about" href="#about">about</a></h3>
+                    <h3><a class="ref" value="skills" href="#skills">skills</a></h3>
+                    <h3><a class="ref" value="experiences" href="#experiences">experiences</a></h3>
+                    <h3><a class="ref" value="projects" href="#projects">projects</a></h3>
+                </div>
             </nav>
             <div style="margin:50px"></div>
             <div class="section" id="about">
                 <h1>about me</h1>
                 <p> 
-                    Hey, I'm <span style="color:#cebc81">Ben Wang</span>, a freshman at Rutgers University studying <span style="color:#cebc81">Computer Science</span>.
+                    Hey, I'm <span style="color:#cebc81">Ben Wang</span>, a rising sophomore at Rutgers University studying <span style="color:#cebc81">Computer Science</span>.
                     I'm a well-rounded amateur developer with lots of informal experience. I enjoy realizing whimsical and novel ideas.
-                    See me on <a style="color:#cebc81;font-weight: 500;" href="https://github.com/benwang2" aria-label="See me on GitHub">GitHub</a> and <a aria-label="See me on LinkedIn" style="color:#cebc81;font-weight: 500;" href="https://www.linkedin.com/in/benjamin-wang-5240001b0/">LinkedIn</a>.
-                    <br><br>
-                    I'm experienced with the following programming languages:
-                        Golang,
-                        Lua,
-                        Java,
-                        JavaScript,
-                        and Python. I am also a novice web developer.
                     <br><br>
 
+                    My goal is to use my unique skill set and background to produce useful or enjoyable creations for myself and others.
                     I am a passionate individual constantly in the pursuit of knowledge and new experiences.
+
+                    <br><br>
+                    See me on <a style="color:#cebc81; font-weight: 500;" href="https://github.com/benwang2" aria-label="See me on GitHub">GitHub</a> and <a aria-label="See me on LinkedIn" style="color:#cebc81;font-weight: 500;" href="https://www.linkedin.com/in/benjamin-wang-5240001b0/">LinkedIn</a>.
+                    <br><br>
+                </p>
+            </div>
+            <div class="section" id="skills">
+                <h1>skills</h1>
+                <p>
+                    I am proficient with various programming languages including: Lua, Java, JavaScript, Golang, Python.
+                    <br><br>
+                    I have an intermediate mastery of Spanish and Chinese (Mandarin).
+                    <br><br>
+                    I've worked with various technologies including: Heroku, Firebase, NodeJS, PostgreSQL, and Discord API.
+                    <br><br>
+
                 </p>
             </div>
             <div class="section" id="experiences">
                 <h1>experiences</h1>
                 <p>
-                    <u><a href="https://www.linkedin.com/company/sohq/" class="work-title">SOHQ</a></u> | February 2021 - Present<br>
-                    Web Development Intern - Developed a static website for a small business.
+                    <u><a href="https://www.linkedin.com/company/sohq/" class="work-title">SOHQ</a></u> | Web Development Intern | March 2021 - Present<br>
+                    Developed a static website for a small business.
                 </p>
-                <div class="grid" id="experiences-grid">
-                    <div class="card">
-
-                    </div>
-                </div>
+                <p>
+                    <u><a href="https://www.linkedin.com/company/puddleinc/" class="work-title">Puddle</a></u> | Backend Engineer | April 2021 - Present<br>
+                    Researching various PoS systems and their respective APIs to integrate them into one platform.
+                    <!-- Researched and integrated various PoS systems into Puddle and managed a MongoDB database -->
+                </p>
             </div>
             <div class="section" id="projects">
                 <h1>projects</h1>
