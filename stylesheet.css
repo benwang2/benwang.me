@@ -6,7 +6,7 @@ html {
     background-color: rgb(25,24,26);
     font-family: 'Quicksand', sans-serif;
     height: 95%;
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
 }
 
 h1, h2, h3, p, .ref {

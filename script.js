@@ -12,7 +12,7 @@ let navbars = []
 
 function addClass(name) {
     var element, name, arr;
-    element = document.getElementById("nav-top");
+    element = document.getElementById("full");
     arr = element.className.split(" ");
     if (arr.indexOf(name) == -1) {
         element.className += " " + name;
@@ -21,7 +21,7 @@ function addClass(name) {
 
 function rmvClass(name){
     var element, name, arr;
-    element = document.getElementById("nav-top");
+    element = document.getElementById("full");
     arr = element.className.split(" ");
     if (arr.indexOf(name) >= 0) {
         arr.splice(arr.indexOf(name), 1)
@@ -40,13 +40,20 @@ function updateMenu(){
 }
 
 function toggleMenu(){
-    console.log("hello"+hamburger.classList.contains("is-active"))
+    //console.log("hello"+hamburger.classList.contains("is-active"))
     if (hamburger.classList.contains("is-active")){
         hamburger.classList.remove("is-active")
         dropdown.classList.remove("visible")
     } else {
         hamburger.classList.add("is-active")
         dropdown.classList.add("visible")
+    }
+}
+
+function hideMenu(){
+    if (hamburger.classList.contains("is-active")){
+        hamburger.classList.remove("is-active")
+        dropdown.classList.remove("visible")
     }
 }
 
@@ -77,7 +84,6 @@ window.addEventListener("load",()=>{
 
 window.addEventListener("scroll",(evt)=>{
     let scrollPosition = window.scrollY;
-    console.log(scrollPosition+" <= "+(sections[1].offsetTop - 61));
     if (scrollPosition <= (sections[1].offsetTop - 61)){
         addClass("opaque-black")
     } else {
