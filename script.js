@@ -2,7 +2,7 @@ let projects = [
     ["#14a76c","resources/images/mnky.jpg","https://mnky.link",
     "mnky.link","A URL shortener that uses Monkey-related emojis to shorten your URL."],
     ["#640f0e","resources/images/betterburn.jpg","https://betterburn.xyz",
-    "betterburn.xyz","A website created to contain all of my Rivals of Aether-related projects."],
+    "betterburn.xyz","My first website - created to contain all of my Rivals of Aether-related projects."],
     ["#13305a","resources/images/stegafun.png","https://benwang2.github.io/stega.fun/",
     "stegafun","Web steganography tools inspired by a previous project written in Java."]
 ]
