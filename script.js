@@ -1,13 +1,14 @@
 let projects = [
-    ["#14a76c","resources/images/mnky.jpg","https://mnky.link",
-    "mnky.link","A URL shortener that uses Monkey-related emojis to shorten your URL."],
-    ["#640f0e","resources/images/betterburn.jpg","https://betterburn.xyz",
-    "betterburn.xyz","A website created to contain all of my Rivals of Aether-related projects."],
-    ["#13305a","resources/images/stegafun.jpg","https://benwang2.github.io/stega.fun/",
+    ["#BD85FF","resources/img/lotus.jpg","https://github.com/benwang2/Lotus",
+    "Lotus", " A service that tracks user activity and facilitates organizing events within small communities."],
+    ["#0F2BA5", "resources/img/psg.jpg","https://github.com/benwang2/ProblemSetGenerator",
+    "Problem Set Generator","A website to quickly create unique problem sets based on existing ones."    ],
+    ["#13305a","resources/img/stegafun.jpg","https://benwang2.github.io/stega.fun/",
     "stegafun","Web steganography tools inspired by a previous project written in Java."],
-    ["#0F2BA5", "resources/images/psg.jpg","https://github.com/benwang2/ProblemSetGenerator",
-    "Problem Set Generator","A website to quickly create unique problem sets based on existing ones."
-    ]
+    ["#14a76c","resources/img/mnky.jpg","https://mnky.link",
+    "mnky.link","A comical URL shortener that uses monkey-related emojis to shorten your URL."],
+    ["#640f0e","resources/img/betterburn.jpg","https://betterburn.xyz",
+    "betterburn.xyz","My first website, created to display my Rivals of Aether-related projects."],
 ]
 
 let sections = [];

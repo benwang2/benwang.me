@@ -117,13 +117,13 @@ a:hover, a:focus, a:active{color:aliceblue}
     background-color: rgba(0,0,0,0.8);
     border-radius: 6px;
     transition: transform .5s ease-in-out;
-    transform: translateY(-100%);
+    transform: translateY(0%);
     overflow: hidden;
 }
 
-.cell:hover > .cover{
+/* .cell:hover > .cover{
     transform: translateY(0%);
-}
+} */
 
 .cover > h1, p{margin:12px;}
 .cover > h1 {font-size: 2em;text-decoration: underline;}
