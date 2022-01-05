@@ -33,6 +33,14 @@ nav {
     transition: background-color 0.2s;
 }
 
+.headshot {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    max-width: 256px;
+    max-height: 256px;
+}
+
 .navbar-nav {
     position: relative;
     padding: 12px 0 12px 0;
@@ -158,6 +166,12 @@ nav {
     display: flex;
     flex-direction: column;
     width: fit-content;
+}
+
+.compact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
 }
 
 .row {
