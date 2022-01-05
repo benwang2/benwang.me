@@ -16,7 +16,7 @@
   font: inherit;
   color: inherit;
   text-transform: none;
-  background-color: rgba(25,24,26, .9);
+  background-color: rgba(25,24,26, 0);
   border-radius: 4px;
   border: 0;
   margin: 0;
@@ -32,8 +32,8 @@
     background-color: antiquewhite; }
 
 .hamburger-box {
-  width: 40px;
-  height: 24px;
+  width: 20px;
+  height: 12px;
   display: inline-block;
   position: relative; }
 
@@ -42,8 +42,8 @@
   top: 50%;
   margin-top: -2px; }
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-    width: 40px;
-    height: 4px;
+    width: 20px;
+    height: 2px;
     background-color: antiquewhite;
     border-radius: 4px;
     position: absolute;
@@ -54,9 +54,9 @@
     content: "";
     display: block; }
   .hamburger-inner::before {
-    top: -10px; }
+    top: -5px; }
   .hamburger-inner::after {
-    bottom: -10px; }
+    bottom: -5px; }
 
 /*
    * 3DX
