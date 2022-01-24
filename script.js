@@ -1,4 +1,6 @@
 let projects = [
+    ["#26b1f4", "resources/img/project-directory.jpg","https://benwang2.github.io/project-directory",
+    "Project Directory","VS-Coded themed React website that displays my projects on GitHub."]
     ["#BD85FF","resources/img/lotus.jpg","https://github.com/benwang2/Lotus",
     "Lotus", " A service that tracks user activity and facilitates organizing events within small communities."],
     ["#0F2BA5", "resources/img/psg.jpg","https://github.com/benwang2/ProblemSetGenerator",
