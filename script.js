@@ -7,9 +7,9 @@ let projects = [
     "Problem Set Generator","A website to quickly create unique problem sets based on existing ones."    ],
     ["#13305a","resources/img/stegafun.jpg","https://benwang2.github.io/stega.fun/",
     "stegafun","Web steganography tools inspired by a previous project written in Java."],
-    ["#14a76c","resources/img/mnky.jpg","https://mnky.link",
+    ["#14a76c","resources/img/mnky.jpg","https://github.com/benwang2/mnky.link",
     "mnky.link","A comical URL shortener that uses monkey-related emojis to shorten your URL."],
-    ["#640f0e","resources/img/betterburn.jpg","https://betterburn.xyz",
+    ["#640f0e","resources/img/betterburn.jpg","https://github.com/benwang2/betterburn.xyz",
     "betterburn.xyz","My first website, created to display my Rivals of Aether-related projects."],
 ]
 
